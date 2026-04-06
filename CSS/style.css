@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #F1E4E8;
+}
+
+.titulo{
+    font-size: 45px;
+}
+
+.box-titulo{
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    background: linear-gradient(#CEB1BE, transparent);
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.head-1{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    border-bottom: 2px solid #aaa;
+    margin-bottom: 40px;
+}
+
+.head-1 nav ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.head-1 nav ul li{
+    margin: 0 60px;
+    display: inline;
+}
+
+.elementos-nav{
+    text-decoration: none;
+    color: #000;
+}
+
+.elementos-nav:hover{
+    color: #B97375;
+    text-decoration: underline;
+}
+
+
+.presentacion-pagina{
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #CEB1BE;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.recetas-tendencia{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.box-receta{
+    width: 300px;
+    height: 600px;
+    background-color: #B97375;
+    display: inline-block;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 0 30px;
+    border-radius: 30px;
+    
+    vertical-align: top;
+
+    position: relative;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.noticias{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn-ver-receta{
+    background: none;
+    border: none;
+    width: 65%;
+    background-color: #974446;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+
+    transition: all 0.3s ease;
+
+
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.btn-ver-receta:hover{
+    background-color: #76282b;
+    transform: translateX(-50%) scale(1.05);
+}
+
+.btn-ver-receta:active {
+    transform: scale(0.95);
+    transform: translateX(-50%);
+}
+
+.titulo-noticia{
+    text-decoration: underline;
+}
