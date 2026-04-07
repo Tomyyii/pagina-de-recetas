@@ -48,13 +48,12 @@ body{
     text-decoration: underline;
 }
 
-
 .presentacion-pagina{
     margin-top: 20px;
     box-sizing: border-box;
     padding: 20px;
     background-color: #CEB1BE;
-    width: 70%;
+    width: 30%;
     text-align: center;
     margin: auto;
     border-radius: 20px;
@@ -87,12 +86,6 @@ body{
     border-radius: 50%;
 }
 
-.noticias{
-    margin-top: 60px;
-    text-align: center;
-    font-size: 50px;
-}
-
 .btn-ver-receta{
     background: none;
     border: none;
@@ -123,6 +116,58 @@ body{
     transform: translateX(-50%);
 }
 
+.noticias{
+    margin-top: 60px;
+    text-align: center;
+    border-top: 2px solid #000;
+    background-color: #76282b2a;
+}
+.noticias h2{
+    font-size: 50px;
+}
+
+.noticias h3{
+    font-size: 45px;
+}
+
 .titulo-noticia{
+    
     text-decoration: underline;
+}
+
+.nav-noticias{
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+.nav-noticias ul li{
+    display: inline-block;
+    margin: 0 50px;
+    text-decoration: none;
+}
+
+.noticia-ultimo-momento{
+    background-color: #76282b88;
+    width: 600px;
+    height: 600px;
+    display: inline-block;
+    margin: 0 30px;
+    border-radius: 30px;
+
+    vertical-align: top;
+}
+
+
+.listado-de-noticias{
+    width: 90%;
+    letter-spacing: 0.1rem;
+}
+
+.listado-de-noticias h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+.listado-de-noticias ul li{
+    margin: 60px 0;
 }
